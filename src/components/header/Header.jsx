@@ -1,7 +1,14 @@
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <form>
+      <h2>Recipe App</h2>
+      <input type="text" />
+      <button>SEARCH</button>
+      <select name="mealType" id="mealType">
+
+      </select>
+    </form>
   )
 }
 
