@@ -3,6 +3,7 @@ import { Brand, Hamburger, Menu, MenuLink, Nav } from "./Navbar.style";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  
   const [isOpen, setIsOpen] = useState(false);
 
   return (

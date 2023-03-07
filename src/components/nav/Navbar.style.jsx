@@ -37,7 +37,7 @@ export const MenuLink = styled(Link)`
   transition: all 0.3s ease-in;
   &:hover {
     color: ${({ theme }) => theme.colors.mainColor};
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     width: 100%;
