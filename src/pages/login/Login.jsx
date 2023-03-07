@@ -1,5 +1,5 @@
 import meal from "../../assets/meal.svg"
-import { FormContainer, LoginContainer } from "./Login.style";
+import { FormContainer, Header, LoginContainer, StyledInput } from "./Login.style";
 
 
 const Login = () => {
@@ -8,10 +8,10 @@ const Login = () => {
     <LoginContainer>
       <FormContainer>
         <img src={meal} width={250}/>
-        <h1>Recipe</h1>
+        <Header>Recipe</Header>
         <form>
-          <input type="text" placeholder="Enter username"/>
-          <input type="text" placeholder="Enter password"/>
+          <StyledInput type="text" placeholder="Enter username"/>
+          <StyledInput type="text" placeholder="Enter password"/>
           <button type="submit">Login</button>
         </form>
       </FormContainer>

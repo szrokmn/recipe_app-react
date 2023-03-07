@@ -20,3 +20,20 @@ export const FormContainer = styled(Flex)`
   flex-direction: column;
 `;
 
+export const Header = styled.h1`
+  color: white;
+  font-size: 3rem;
+`;
+
+export const StyledInput = styled.input`
+  height: 3rem;
+  font-size: 2rem;
+  width: 15rem;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  margin: 1rem;
+  text-indent: 1rem;
+`;
+
